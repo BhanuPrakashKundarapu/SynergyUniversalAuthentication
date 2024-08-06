@@ -1,0 +1,8 @@
+#outlined-number{
+    /* word-spacing: 30px; */
+    letter-spacing: 2rem;
+    text-align: center;
+}
+#standard-number{
+    letter-spacing: 0.8rem;
+}

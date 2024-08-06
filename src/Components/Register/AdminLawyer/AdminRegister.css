@@ -1,0 +1,61 @@
+.progress-section{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.bar{
+    width: 93%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+.progress-bar{
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    background-image:linear-gradient(120deg, darkred,skyblue,rgb(134, 133, 133),gray);
+}
+.detailsent ,.AdminAccept{
+    margin: auto;
+    height: 30px;
+    border-radius: 30px;
+    width: 30px;
+    background-color: darkgreen;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detailsent::after,.AdminAccept::after{
+    content: "";
+    background-color: white;
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%,-50%);
+}
+.input-password-field{
+    /* background-color: darkcyan; */
+    display: flex;
+    height: 100%;
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+
+}
